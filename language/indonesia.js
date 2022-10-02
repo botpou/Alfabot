@@ -218,10 +218,10 @@ exports.BotPublic = () => {
     return `Chanjman Siksè Nan Mode Piblik`
 }
 exports.BotSelf = () => {
-    return `Siksè chanje nan mòd pwòp tèt ou\n\n Pou chanje nan mòd piblik, tanpri itilize nimewo bot la`
+    return `Siksè chanje nan mòd pwòp tèt ou\n\n Pou chanje nan mòd piblik, tanpri itilize nimewo bot la😌`
 }
 exports.NoToStik = (prefix, command) => {
-    return `Kirim/Reply Gambar/Video Dengan Caption ${prefix + command}\n\nDurasi Sticker Video 1-9 Detik`
+    return `Voye/Reponn Imaj/Videyo Ak Caption ${prefix + command}\n\nfok video a dire ant 1-9 second😏`
 }
 exports.NoPpBot = (prefix, command) => {
     return `Voye/Reponn Imaj Ak Caption ${prefix + command}`
@@ -233,7 +233,7 @@ exports.ToMp3 = (prefix, command) => {
     return `Voye/Reponn Videyo/Odyo Ou Vle Konvèti an MP3 ak Caption ${prefix + command}`
 }
 exports.ToVn= (prefix, command) => {
-    return `Reply Video/Audio Yang Ingin Dijadikan VN Dengan Caption ${prefix + command}`
+    return `Reply Video/lap konvetil pou ou ${prefix + command}`
 }
 exports.NoQouted = () => {
     return `Pesan Yang anda reply tidak mengandung reply`
