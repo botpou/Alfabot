@@ -214,10 +214,10 @@ exports.NoToImg = (prefix, command) => {
     return `Reply Sticker Dengan Caption *${prefix + command}*`
 }
 exports.BotPublic = () => {
-    return `Sukses Ganti Ke Mode Public`
+    return `Chanjman Siksè Nan Mode Piblik`
 }
 exports.BotSelf = () => {
-    return `Sukses Ganti Ke Mode Self\n\nUntuk mengubah ke mode public silahkan gunakan nomor bot`
+    return `Siksè chanje nan mòd pwòp tèt ou\n\n Pou chanje nan mòd piblik, tanpri itilize nimewo bot la`
 }
 exports.NoToStik = (prefix, command) => {
     return `Kirim/Reply Gambar/Video Dengan Caption ${prefix + command}\n\nDurasi Sticker Video 1-9 Detik`
@@ -634,20 +634,20 @@ exports.wait = () => {
     return `⏳ Tanpri fon ti tann`
 }
 exports.ok = () => {
-    return `✅ Done.`
+    return `✅ Siksè.`
 }
 
 exports.err = () => {
-    return `⚠️ Fitur Sedang Error`
+    return `⚠️ komand sa gen problem`
 }
 exports.erorLink = () => {
-    return `⚠️ Link nya error`
+    return `⚠️ Link la envalid`
 }
 exports.media = () => {
-    return `Silahkan pilih media yang ingin kamu download`
+    return `Tanpri chwazi medya ou vle telechaje yo`
 }
 exports.replyImg = (prefix, command) => {
-    return `Kirim/Reply Foto Dengan Caption ${prefix + command}`
+    return `Voye/Reponn Foto Ak Caption ${prefix + command}`
 }
 
 exports.wrongFormat = (prefix) => {
@@ -663,19 +663,19 @@ exports.cmdNotFound = (cmd, prefix) => {
 }
 
 exports.ownerOnly = () => {
-    return `❎ Command ini khusus Owner`
+    return `❎ Kòmandman sa a se pobot la`
 }
 
 exports.doneOwner = () => {
-    return `✅  ️Sudah selesai, Owner ~`
+    return `✅  ️Li fini, Pwopriyetè ~`
 }
 
 exports.groupOnly = () => {
-    return `👥  Command ini hanya bisa digunakan di dalam grup!`
+    return `👥  Kòmand sa a ka itilize sèlman nan gwoup!`
 }
 
 exports.adminOnly = () => {
-    return `🙅  Command ini hanya bisa digunakan oleh admin grup!`
+    return `🙅  Admin gwoup yo ka itilize kòmandman sa a sèlman!`
 }
 
 exports.nhFalse = () => {
@@ -689,15 +689,15 @@ Total diblokir: *${blockNumber.length}* user\n`
 }
 
 exports.notAdmin = () => {
-    return `❎ User bukan seorang admin! ❎`
+    return `❎ Itilizatè se pa yon admin! ❎`
 }
 
 exports.adminAlready = () => {
-    return `❎ Tidak  dapat mem-promote user yang merupakan admin!`
+    return `❎ Pa ka ankouraje yon itilizatè ki se yon admin!`
 }
 
 exports.botNotAdmin = () => {
-    return `Jadikan bot sebagai admin terlebih dahulu! 🙏`
+    return `Fè bot la yon admin an premye! 🙏`
 }
 
 exports.received = (pushname) => {
@@ -719,7 +719,7 @@ saya ${botname}, bot ini adalah Beta Multi-Device Whatsapp.
 `
 }
 exports.listMenu = (time, salam, pushname, prefix) => {
-    return `*Selamat ${salam} ${pushname}*
+    return `*sak genla ${salam} ${pushname}*
 *⌚Time Server : ${time}*
 *📚 List-Menu Bot :*
 
