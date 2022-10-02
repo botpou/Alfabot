@@ -47,6 +47,7 @@ global.author = 'By AndyOfc ' //sticker wm ganti nama kalian
 global.sessionName = 'session'
 global.typemenu = 'document'
 global.multiplier = 69
+const nyoutube = ('creator @+50941411147')  //ubah di config biar ngk emror
 global.limitawal = {
     premium: "700000",
     free: 50
