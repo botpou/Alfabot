@@ -95,7 +95,7 @@ exports.UmurXReg = () =>{
 	return`Umur kamu terlalu tua, bukannya mati ehh malah main bot`
 	}
 exports.firstChat = (a, b, c) =>{
-	return`Felisitasyon ${a} ${b} 😎, mwen se ${c} sa vle di bot whatsapp. Kijanw me kapab edew svp ${c} 😎?`
+	return`Felisitasyon ${a} ${b} 😎, mwen se ${c} sa vle di bot whatsapp. ${c} 😎?`
 }
 exports.StartAbsen = () =>{
 	return`Mulai Absen`
@@ -180,32 +180,33 @@ exports.DelMsg = (text) => {
 }
 
 exports.OnBef = () => {
-    return `Sudah di aktifkan sebelumnya`
+    return `Deja aktive anvan`
 }
 exports.OffYaBef = () => {
-    return `Sudah di nonaktifkan sebelumnya`
+    return `Deja enfim anvan`
 }
 exports.OkOn = (command) => {
-    return `${command} Berhasil Di Aktifkan !`
+    return `${command} Aktive avèk siksè !`
 }
 exports.OffBef = (command) => {
-    return `${command} Berhasil Di Nonaktifkan !`
+    return `${command} Dezaktive avèk siksè !`
 }
 exports.OkMute = () => {
-    return `Bot Telah Di Mute Di Group Ini`
+    return `Bot te muet nan gwoup sa a`
 }
 exports.OkUnMute = () => {
     return `Bot Berhasil Di UnMute`
 }
 exports.OkUnBanC = () => {
-    return `Bot Berhasil Di unban chat`
+    return `Bot avèk siksè Unban chat`
 }
 exports.NoMute = () => {
-    return `Bot belum di ban dalam group ini`
+    return `Bot pa te entèdi nan gwoup sa a`
 }
 
 exports.NoMsgBot = () => {
-    return `Pesan tersebut bukan dikirim oleh bot!`
+
+    return `Se pa yon bot voye mesaj la!`
 }
 exports.ToimgErr = () => {
     return `Maaf Saat Ini Belum Support Sticker Gif`
@@ -223,13 +224,13 @@ exports.NoToStik = (prefix, command) => {
     return `Kirim/Reply Gambar/Video Dengan Caption ${prefix + command}\n\nDurasi Sticker Video 1-9 Detik`
 }
 exports.NoPpBot = (prefix, command) => {
-    return `Kirim/Reply Image Dengan Caption ${prefix + command}`
+    return `Voye/Reponn Imaj Ak Caption ${prefix + command}`
 }
 exports.ToAud = (prefix, command) => {
-    return `Kirim/Reply Video/Audio Yang Ingin Dijadikan Audio Dengan Caption ${prefix + command}`
+    return `Voye/Reponn Videyo/Odyo Yang Ingin Dijadikan Audio Dengan Caption ${prefix + command}`
 }
 exports.ToMp3 = (prefix, command) => {
-    return `Kirim/Reply Video/Audio Yang Ingin Dijadikan MP3 Dengan Caption ${prefix + command}`
+    return `Voye/Reponn Videyo/Odyo Ou Vle Konvèti an MP3 ak Caption ${prefix + command}`
 }
 exports.ToVn= (prefix, command) => {
     return `Reply Video/Audio Yang Ingin Dijadikan VN Dengan Caption ${prefix + command}`
@@ -238,19 +239,19 @@ exports.NoQouted = () => {
     return `Pesan Yang anda reply tidak mengandung reply`
 }
 exports.SetGcName = (prefix, command) => {
-    return `Kirim perintah ${prefix + command} *teks*`
+    return `Voye lòd ${prefix + command} *teks*`
 }
 exports.SetPpGc = (prefix, command) => {
-    return `Kirim/Reply Image Dengan Caption ${prefix + command}`
+    return `Voye/Reponn imaj ak tit ${prefix + command}`
 }
 exports.JoinGc = () => {
-    return `Masukkan Link Group!`
+    return `Antre Link Group!`
 }
 exports.MauKick = () => {
-    return `Kirim nomer/tag/reply target yang ingin di kick !`
+    return `Voye nimewo sib/tag/repons ou vle choute !`
 }
 exports.MauAdd = () => {
-    return `Kirim nomer/tag/reply target yang ingin di add !`
+    return `Voye nimewo sib/tag/repons ou vle ajoute !`
 }
 exports.NakPm= () => {
     return `Kirim nomer/tag/reply target yang ingin di promote !`
@@ -274,7 +275,7 @@ exports.NoTeksTwo = (prefix, command) => {
     return `Kirim perintah ${prefix + command} *teks 1|teks 2*\n\nContoh : ${prefix + command} WhatsApp|Bot`
 }
 exports.OffNsfw = () => {
-    return `Fitur nsfw belum di aktifkan`
+    return `Karakteristik nsfw la pa aktive`
 }
 exports.CoverBanLol = (prefix, command) => {
     return `Contoh: ${prefix + command} nama|heroes\nUsage: ${prefix + command} zeeone|jinx7`
@@ -417,16 +418,16 @@ exports.StalkIg = () => {
     return `Masukkan username`
 }
 exports.Tomp4 = (prefix, command) => {
-    return `Reply stiker gif dengan caption ${prefix + command}`
+    return `Reponn fichye gif ak tit ${prefix + command}`
 }
 exports.Tourl = (prefix, command) => {
-    return `Kirim/Reply Media Dengan Caption ${prefix + command}`
+    return `Voye/Reponn medya ak tit ${prefix + command}`
 }
 exports.Smeme = (prefix, command) => {
-    return `Kirim/Reply Foto Dengan Caption ${prefix + command} *teks*`
+    return `Voye/Reponn foto ak Caption ${prefix + command} *teks*`
 }
 exports.Smeme_ = (prefix, command) => {
-    return `Kirim/Reply Foto Dengan Caption ${prefix + command} *teks|tesk2*`
+    return `Voye/Reponn foto ak Caption ${prefix + command} *teks|tesk2*`
 }
 exports.Bcall = (anu, time, chat) => {
     return `Mengirim Broadcast Ke ${anu} ${chat}\nWaktu Selesai ${time * 1.5} detik`
@@ -477,7 +478,7 @@ exports.UpList = (key) => {
     return `Sukses update list message dengan key : *${key}*\n\nNote : Tunggu beberapa menit jika list tidak berubah`
 }
 exports.Anonymous = (pushname, prefix) => {
-    return `Hai ${pushname} Selamat Datang di Anonymous Chat\n\nKetik ${prefix}start untuk mencari Teman Chat anda, atau bisa pencet tombol Search dibawah`
+    return `Hai ${pushname} Byenveni nan chat anonim\n\nKetik ${prefix}start untuk mencari Teman Chat anda, atau bisa pencet tombol Search dibawah`
 }
 exports.Anon = () => {
     return `Cari Teman Chat`
@@ -523,10 +524,10 @@ exports.AllFitur = () => {
     return `\n_Semua fitur bot_`
 }
 exports.InfoMenu = () => {
-    return `\n_Mencari informasi terkini melalui bot_`
+    return `\n_Chache dènye enfòmasyon yo atravè bot_`
 }
 exports.KhususOwn = () => {
-    return `\n_Fitur khusus owner bot_`
+    return `\selman met bot la ki k use fonkstyon an`
 }
 exports.DataBor = () => {
     return `\n_Menyimpan sesuatu di database bot_`
@@ -619,10 +620,10 @@ exports.SetAh = () => {
     return `Mau set menu ya ?`
 }
 exports.KickAh = (gc) => {
-    return `*Antilink Group Terdeteksi*\n\nKamu akan dikeluarkan dari group ${gc}`
+    return `*Gwoup Antilink Detekte*\n\nYo pral retire w nan gwoup la ${gc}`
     }
     exports.GjdKick = () => {
-    return `Sepertinya kamu mengirimkan link group ini, kamu tidak akan di keluarkan`
+    return `Sanble ou te voye lyen gwoup sa a, yo pap mete w deyò`
     }
 /////////
 
