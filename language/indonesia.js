@@ -21,8 +21,7 @@ exports.profile = (username, m, about, pasangan, PhoneNumber, exp, min, xp, math
 ⛽ Premium: ${premium ? `✅\n⏰ Expired Premium : msToDate(premiumDate - now)` : '❌'}
 🛄 Last claim: ${lastclaim > 0 ? + tanggal(lastclaim) : '-'}`
 	}
-require('./config')
-const nyoutube = ('creator @+50941411147')  //ubah di config biar ngk emror
+
 //
 exports.needReg = (a, b, c) =>{
 	return`🇲🇨 Daftar dulu bang
