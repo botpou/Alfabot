@@ -26,7 +26,7 @@ global.language = english  //change indonesia to english if you don't understand
 
 // Other
 // Other
-global.botname = "ANDY BOT Mdོ" //namabot kalian
+global.botname = "ANDY BOT PREMIUM" //namabot kalian
 global.ownername= "ᴹᴿ᭄ AndyOfcོ ×፝֟͜×" //nama kalian
 global.myweb ="kkjj" //bebas asal jan hapus
 global.youtube = "https://youtube.com/c/AndyOfc" //bebas asal jan hapus
