@@ -628,10 +628,10 @@ exports.KickAh = (gc) => {
 
 /////////
 exports.private = () =>{
-	return`Fitur hanya bisa di gunakan di private chat`
-	}
+	return`Fitur ka itilize sèlman nan chat prive`
+}
 exports.wait = () => {
-    return `⏳ Mohon tunggu sebentar`
+    return `⏳ Tanpri fon ti tann`
 }
 exports.ok = () => {
     return `✅ Done.`
