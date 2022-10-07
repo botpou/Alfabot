@@ -26,7 +26,7 @@ global.language = english  //change indonesia to english if you don't understand
 
 // Other
 // Other
-global.botname = "ANDY BOT PREMIUM" //namabot kalian
+global.botname = "ANDY MD V2" //namabot kalian
 global.ownername= "ᴹᴿ᭄ AndyOfcོ ×፝֟͜×" //nama kalian
 global.myweb ="kkjj" //bebas asal jan hapus
 global.youtube = "https://youtube.com/c/AndyOfc" //bebas asal jan hapus
@@ -47,7 +47,7 @@ global.author = 'By AndyOfc ' //sticker wm ganti nama kalian
 global.sessionName = 'session'
 global.typemenu = 'document'
 global.multiplier = 69
-const nyoutube = ('creator @+50941411147')  //ubah di config biar ngk emror
+ = ('creator @+50941411147')  //ubah di config biar ngk emror
 global.limitawal = {
     premium: "700000",
     free: 50
