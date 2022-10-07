@@ -15,7 +15,7 @@ global.APIKeys = {
 // setting 
 global.autoread = true // auto read message
 global.autobio = true
-global.userRegister = true
+global.userRegister = false
 global.autoblok212 = false //ubah jadi true biar nmr 212 di blok sama bot
 
 //language
@@ -47,7 +47,6 @@ global.author = 'By AndyOfc ' //sticker wm ganti nama kalian
 global.sessionName = 'session'
 global.typemenu = 'document'
 global.multiplier = 69
- = ('creator @+50941411147')  //ubah di config biar ngk emror
 global.limitawal = {
     premium: "700000",
     free: 50
